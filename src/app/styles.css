@@ -69,5 +69,22 @@ h1 {
         border-radius: 8px;
       }
     }
+
+    .inline-group {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      input[type="checkbox"] {
+        width: 18px;
+        height: 18px;
+        accent-color: #a78bfa;
+        cursor: pointer;
+      }
+
+      label {
+        cursor: pointer;
+      }
+    }
   }
 }
