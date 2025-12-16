@@ -29,4 +29,45 @@ h1 {
   gap: 16px;
   border: solid 1px #ffffff14;
   width: 1000px;
+
+  .controls {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    background-color: #ffffff0f;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #ffffff14;
+
+    .control-group {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      label {
+        font-size: 14px;
+        font-weight: 500;
+      }
+
+      input[type="range"] {
+        width: 100%;
+        cursor: pointer;
+        accent-color: #a78bfa;
+        background: #4c4fef;
+        appearance: none;
+        border-radius: 8px;
+        height: 5px;
+      }
+
+      input[type="color"] {
+        width: 50px;
+        height: 40px;
+        border: none;
+        background-color: transparent;
+        cursor: pointer;
+        border-radius: 8px;
+      }
+    }
+  }
 }
