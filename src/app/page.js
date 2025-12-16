@@ -44,6 +44,18 @@ export default function Home() {
 
         <div className="result">
           <div className="output-box" id="box"></div>
+
+          <div className="code-output" id="code">
+            <div className="code-header">
+              <p>Css</p>
+
+              <button id="codeBtn">Copiar</button>
+            </div>
+
+            <p className="code-line">
+              <span>box-shadow:</span>
+            </p>
+          </div>
         </div>
       </main>
     </div>
