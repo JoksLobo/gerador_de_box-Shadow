@@ -35,6 +35,11 @@ export default function Home() {
             <label htmlFor="opacity">Opacidade</label>
             <input type="range" id="opacity" min={0} max={1} step={0.01} />
           </div>
+
+          <div className="inline-group">
+            <label htmlFor="inset">Sombra interna (Inner shadow)</label>
+            <input type="checkbox" id="inset" />
+          </div>
         </div>
       </main>
     </div>
