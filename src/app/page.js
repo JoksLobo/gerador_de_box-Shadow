@@ -41,6 +41,10 @@ export default function Home() {
             <input type="checkbox" id="inset" />
           </div>
         </div>
+
+        <div className="result">
+          <div className="output-box" id="box"></div>
+        </div>
       </main>
     </div>
   );
