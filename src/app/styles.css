@@ -139,8 +139,10 @@ h1 {
       .code-line {
         word-break: break-all;
         color: #42e2d8;
+        font-family: monospace;
 
         span {
+          font-family: monospace;
           color: #ff59a0;
         }
       }
